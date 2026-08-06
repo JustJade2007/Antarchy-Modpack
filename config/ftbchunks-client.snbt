@@ -138,26 +138,39 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:pig": true
-			"artifacts:mimic": true
-			"minecraft:cow": true
-			"minecraft:wolf": true
-			"minecraft:cod": false
-			"minecraft:tropical_fish": false
-			"antarchy:dorrie": true
-			"minecraft:creeper": true
-			"minecraft:squid": true
-			"minecraft:bat": true
-			"minecraft:zombie": true
-			"minecraft:glow_squid": true
-			"minecraft:bee": true
-			"antarchy:termite": true
-			"antarchy:apple_cow": true
-			"minecraft:sheep": true
+			"minecraft:turtle": true
 			"minecraft:pufferfish": false
-			"minecraft:chicken": true
-			"minecraft:skeleton": true
 			"minecraft:spider": true
+			"minecraft:enderman": true
+			"minecraft:zombie": true
+			"minecraft:sheep": true
+			"artifacts:mimic": true
+			"royalvariations:royal_enderman": true
+			"minecraft:bat": true
+			"antarchy:dorrie": true
+			"minecraft:chicken": true
+			"minecraft:creeper": true
+			"minecraft:salmon": false
+			"antarchy:rainbow_ant": true
+			"minecraft:dolphin": true
+			"minecraft:skeleton": true
+			"minecraft:pig": true
+			"antarchy:apple_cow": true
+			"minecraft:tropical_fish": false
+			"minecraft:bee": true
+			"minecraft:wolf": true
+			"minecraft:glow_squid": true
+			"antarchy:termite": true
+			"antarchy:brown_ant": true
+			"minecraft:cod": false
+			"minecraft:squid": true
+			"minecraft:witch": true
+			"royalvariations:royal_zombie": true
+			"royalvariations:royal_skeleton": true
+			"royalvariations:royal_creeper": true
+			"minecraft:horse": true
+			"minecraft:cow": true
+			"minecraft:donkey": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

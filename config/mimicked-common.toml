@@ -21,7 +21,7 @@
 	#The chance to record a player when they are speaking.
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	recordingChance = 0.2
+	recordingChance = 0.01
 	#The chance of a clip being replaced by a new one when a new recording is made if clip storage is full.
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
@@ -39,13 +39,13 @@
 	#How often should mimic events happen (on average) in minutes.
 	# Default: 5.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	sparsity = 5.0
+	sparsity = 30.0
 	#The chance of a clip being deleted after it is used. This is disabled during overdrive.
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
 	deletionChance = 0.5
 	#Disables hearing yourself.
-	disableSelf = false
+	disableSelf = true
 	#Disable client-side audio processing when connected to a server with the mod installed (recommended for quality).
 	preferServerSide = true
 	#A whitelist for possible entities to be the source of the mimicking. Note that mimicking can only be done if there is a proper host nearby.

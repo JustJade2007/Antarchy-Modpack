@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"superbwarfare:steel_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"superbwarfare:steel_barrel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"superbwarfare:light_armament_module"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"superbwarfare:medium_armament_module"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"superbwarfare:super_star_shooter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"superbwarfare:rare_material_pack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"superbwarfare:superb_material_pack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"superbwarfare:super_star_shooter_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
