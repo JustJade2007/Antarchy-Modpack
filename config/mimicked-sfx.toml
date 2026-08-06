@@ -1,0 +1,274 @@
+#Settings for Mimicked mod playback sound effects.
+[general]
+	#The chance of sound effects to be applied to mimic clips.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	sfxChance = 0.3
+	#The chance of a second sound effect to be applied to mimic clips.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	sfxOverlapChance = 0.3
+	#The maximum number of overlapping sound effects that can be applied to a mimic clip.
+	# Default: 2
+	# Range: > 0
+	sfxMaxOverlap = 2
+
+	[general.overdrive]
+		#The chance of a second sound effect to be applied to mimic clips when near an overdrive host.
+		# Default: 0.9
+		# Range: 0.0 ~ 1.0
+		sfxOverdriveChance = 0.9
+		#The chance of a second sound effect to be applied to mimic clips when near an overdrive host.
+		# Default: 0.6
+		# Range: 0.0 ~ 1.0
+		sfxOverdriveOverlapChance = 0.6
+		#The maximum number of overlapping sound effects that can be applied to a mimic clip when near an overdrive host.
+		# Default: 3
+		# Range: > 0
+		sfxOverdriveMaxOverlap = 3
+
+#Full Reversal takes the entire input audio and reverses it.
+[full_reversal]
+	#How heavily the full audio reversal sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+#Fractured Reversal takes chunks of the input audio and reverses them.
+[fractured_reversal]
+	#How heavily the fractured audio reversal sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+	#The ratio of reversed audio to unreversed audio.
+	[fractured_reversal.ratio]
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		min = 0.3
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		max = 0.4
+
+	#The conversion rate of number of chunks processed per half-second of reversed audio.
+	[fractured_reversal.concentration]
+		# Default: 0.5
+		# Range: 0.0 ~ 24000.0
+		min = 0.5
+		# Default: 0.7
+		# Range: 0.0 ~ 24000.0
+		max = 0.7
+
+#Half Wave Rectifier takes the entire input audio and distorts it. This can often make audio sound like a broken speaker.
+[half_wave_rectifier]
+	#How heavily the half wave rectifier sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+#Pitched Full Wave Rectifier takes the entire input audio and distorts it, creating overlaying deep and normal pitch distorted audio.
+[pitched_full_wave_rectifier]
+	#How heavily the pitched full wave rectifier sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+#Stutter takes chunks of the input audio and stutters it.
+[stutter]
+	#How heavily the stutter sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+	#The duration of the stutter effect.
+	[stutter.duration]
+		# Default: 0.05
+		# Range: 0.0 ~ 1.7976931348623157E308
+		min = 0.05
+		# Default: 0.1
+		# Range: 0.0 ~ 1.7976931348623157E308
+		max = 0.1
+
+	#The cooldown between stutter effects.
+	[stutter.cooldown]
+		# Default: 1.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		min = 1.0
+		# Default: 3.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		max = 3.0
+
+	#The number of times each chunk should be repeated.
+	[stutter.repeats]
+		# Default: 2
+		# Range: > 0
+		min = 2
+		# Default: 5
+		# Range: > 0
+		max = 5
+
+#Pitch Shift takes the entire input audio and shifts the pitch.
+[pitch_shift]
+	#How heavily the pitch shift sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+	#The pitch shift amount.
+	[pitch_shift.shift]
+		# Default: -0.3
+		# Range: -1.0 ~ 1.7976931348623157E308
+		min = -0.3
+		# Default: 0.3
+		# Range: -1.0 ~ 1.7976931348623157E308
+		max = 0.3
+
+#Tempo Shift takes the entire input audio and changes the speed without changing pitch.
+[tempo_shift]
+	#How heavily the tempo shift sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+	#The tempo shift amount.
+	[tempo_shift.shift]
+		# Default: -0.3
+		# Range: -1.0 ~ 1.7976931348623157E308
+		min = -0.3
+		# Default: 0.3
+		# Range: -1.0 ~ 1.7976931348623157E308
+		max = 0.3
+
+#Fractured Pitch takes chunks of the input audio and shifts their pitch.
+[fractured_pitch]
+	#How heavily the fractured audio pitch sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+	#The ratio of pitch-shifted audio to pitch-normal audio.
+	[fractured_pitch.ratio]
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		min = 0.3
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		max = 0.4
+
+	#The conversion rate of number of chunks processed per half-second of pitch-shifted audio.
+	[fractured_pitch.concentration]
+		# Default: 0.5
+		# Range: 0.0 ~ 24000.0
+		min = 0.5
+		# Default: 0.7
+		# Range: 0.0 ~ 24000.0
+		max = 0.7
+
+	#The maximum variance of pitch the fractured audio sfx.
+	[fractured_pitch.variance]
+		# Default: 0.3
+		# Range: 0.0 ~ 1.7976931348623157E308
+		min = 0.3
+		# Default: 0.4
+		# Range: 0.0 ~ 1.7976931348623157E308
+		max = 0.4
+
+#Fractured Tempo takes chunks of the input audio and shifts their tempo.
+[fractured_tempo]
+	#How heavily the fractured audio tempo sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+	#The ratio of tempo-shifted audio to tempo-normal audio.
+	[fractured_tempo.ratio]
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		min = 0.3
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		max = 0.4
+
+	#The conversion rate of number of chunks processed per half-second of tempo-shifted audio.
+	[fractured_tempo.concentration]
+		# Default: 0.5
+		# Range: 0.0 ~ 24000.0
+		min = 0.5
+		# Default: 0.7
+		# Range: 0.0 ~ 24000.0
+		max = 0.7
+
+	#The maximum variance of tempo the fractured audio sfx.
+	[fractured_tempo.variance]
+		# Default: 0.8
+		# Range: 0.0 ~ 1.7976931348623157E308
+		min = 0.8
+		# Default: 1.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		max = 1.2
+
+#Chunk Shuffle takes chunks of the input audio and shuffles them around.
+[chunk_shuffle]
+	#How heavily the chunk shuffle sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+	#The ratio of shuffled audio to unshuffled audio.
+	[chunk_shuffle.ratio]
+		# Default: 0.6
+		# Range: 0.0 ~ 1.0
+		min = 0.6
+		# Default: 0.9
+		# Range: 0.0 ~ 1.0
+		max = 0.9
+
+	#The conversion rate of number of chunks processed per half-second of shuffled audio.
+	[chunk_shuffle.concentration]
+		# Default: 0.7
+		# Range: 0.0 ~ 24000.0
+		min = 0.7
+		# Default: 0.9
+		# Range: 0.0 ~ 24000.0
+		max = 0.9
+
+#Partial Radio Interference shuffles around a portion of the audio samples. This effectively sounds like static is overlaid on top of the input audio.
+[partial_radio_interference]
+	#How heavily the partial radio interference sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+	#The ratio of static audio to non-static audio.
+	[partial_radio_interference.ratio]
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		min = 0.2
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		max = 0.3
+
+#Fractured Radio Interference takes chunks of the input audio and converts them to static. This effectively sounds like radio interference for portions of the audio.
+[fractured_radio_interference]
+	#How heavily the fractured radio interference sfx should be weighted compared to the normal chance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+	#The ratio of static audio to non-static audio.
+	[fractured_radio_interference.ratio]
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		min = 0.3
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		max = 0.4
+
+	#The conversion rate of number of chunks processed per half-second of shuffled audio.
+	[fractured_radio_interference.concentration]
+		# Default: 0.5
+		# Range: 0.0 ~ 24000.0
+		min = 0.5
+		# Default: 0.7
+		# Range: 0.0 ~ 24000.0
+		max = 0.7
