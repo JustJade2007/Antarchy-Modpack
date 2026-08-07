@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:shield","components":"{\"minecraft:damage\":109}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"superbwarfare:raw_silver"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

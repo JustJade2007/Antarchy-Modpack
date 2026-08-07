@@ -1,0 +1,20 @@
+enableColonyFlight = true
+#Ticks between authoritative colony/permission checks.
+# Default: 10
+# Range: 1 ~ 200
+flightCheckIntervalTicks = 10
+allowOwner = true
+allowOfficers = true
+#Optional MineColonies Action enum name, for example PLACE_BLOCKS. Empty disables this extra route.
+requiredMineColoniesPermission = ""
+disableFlightOnLeavingColony = true
+# Default: 5
+# Range: 0 ~ 60
+fallDamageProtectionSeconds = 5
+enableBuilderMaterialTransfer = true
+#Allow colony owners to obtain MineColonies hut items with /colonyhut.
+enableCreativeHutItems = true
+#Reserved for the optional, pre-stocked colony material storage feature. No items are generated.
+enableColonyMaterialStorage = false
+showEnterMessage = true
+showLeaveMessage = true

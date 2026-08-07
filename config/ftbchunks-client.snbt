@@ -58,7 +58,7 @@
 		# Claim mode for the chunk claiming screen
 		# Default: "freehand"
 		# Valid values: "freehand", "rectangle", "circle"
-		claim_mode: "freehand"
+		claim_mode: "rectangle"
 		
 		# Show claimed chunks on the map
 		# Default: true
@@ -128,7 +128,7 @@
 		
 		# Enable minimap
 		# Default: false
-		enabled: false
+		enabled: true
 		
 		# Show entities on minimap
 		# Default: true
@@ -138,39 +138,59 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:turtle": true
-			"minecraft:pufferfish": false
-			"minecraft:spider": true
-			"minecraft:enderman": true
-			"minecraft:zombie": true
-			"minecraft:sheep": true
-			"artifacts:mimic": true
-			"royalvariations:royal_enderman": true
-			"minecraft:bat": true
-			"antarchy:dorrie": true
-			"minecraft:chicken": true
 			"minecraft:creeper": true
-			"minecraft:salmon": false
-			"antarchy:rainbow_ant": true
-			"minecraft:dolphin": true
-			"minecraft:skeleton": true
-			"minecraft:pig": true
-			"antarchy:apple_cow": true
-			"minecraft:tropical_fish": false
-			"minecraft:bee": true
-			"minecraft:wolf": true
-			"minecraft:glow_squid": true
-			"antarchy:termite": true
-			"antarchy:brown_ant": true
-			"minecraft:cod": false
-			"minecraft:squid": true
-			"minecraft:witch": true
-			"royalvariations:royal_zombie": true
+			"minecraft:turtle": true
+			"minecraft:frog": true
+			"minecraft:enderman": true
+			"minecraft:chicken": true
+			"endermanoverhaul:desert_enderman": true
 			"royalvariations:royal_skeleton": true
-			"royalvariations:royal_creeper": true
-			"minecraft:horse": true
-			"minecraft:cow": true
+			"minecraft:skeleton": true
+			"royalvariations:royal_zombie": true
+			"minecraft:wolf": true
 			"minecraft:donkey": true
+			"antarchy:dorrie": true
+			"minecraft:squid": true
+			"minecraft:phantom": true
+			"endermanoverhaul:coral_enderman": true
+			"minecraft:bee": true
+			"minecraft:horse": true
+			"minecraft:bogged": true
+			"minecraft:rabbit": true
+			"minecraft:sheep": true
+			"antarchy:brown_ant": true
+			"antarchy:apple_cow": true
+			"minecraft:iron_golem": true
+			"endermanoverhaul:savanna_enderman": true
+			"minecraft:villager": true
+			"minecraft:zombie": true
+			"minecraft:husk": true
+			"minecraft:tropical_fish": false
+			"antarchy:golden_apple_cow": true
+			"minecraft:salmon": false
+			"minecraft:dolphin": true
+			"antarchy:termite": true
+			"minecraft:pufferfish": false
+			"royalvariations:royal_enderman": true
+			"minecraft:cat": true
+			"minecraft:drowned": true
+			"artifacts:mimic": true
+			"minecraft:ocelot": true
+			"royalvariations:royal_creeper": true
+			"minecraft:spider": true
+			"minecraft:armadillo": true
+			"minecraft:witch": true
+			"minecraft:slime": true
+			"minecraft:cod": false
+			"minecraft:bat": true
+			"minecraft:parrot": true
+			"minecraft:zombie_villager": true
+			"antarchy:rainbow_ant": true
+			"minecraft:cow": true
+			"minecraft:pig": true
+			"minecraft:endermite": true
+			"endermanoverhaul:cave_enderman": true
+			"minecraft:glow_squid": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
