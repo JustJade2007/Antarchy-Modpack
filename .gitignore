@@ -1,87 +1,13 @@
-.mixin.out
-Antarchy-Modpack
-blueprints
-crash-reports
-debug
-defaultconfigs
-disabledmods
-downloads
-essential
-jarmods
-local
-logs
-mimicked
-moddata
-patchouli_books
-resourcepacks
-saves
-screenshots
-shaderpacks
-xaero
-XaeroWaypoints_BACKUP240807
-.gitignore.txt
+/.mixin.out
 command_history.txt
-imgui.ini
+/debug
+/essential
 instance.json
+/local
 options.txt
 patchouli_data.json
-servers.dat
+/saves
 servers.dat_old
 servers.essential.dat
-AntArchy 1.0.0.mrpack
 usercache.json
 usernamecache.json
-mods/configured-neoforge-1.21.1-2.6.3.jar
-config/apotheosis/enchantments.cfg
-config/create-client.toml
-config/create-common.toml
-config/create-server.toml
-config/cucumber-tags.json
-config/flywheel-client.toml
-config/ftbchunks-client.snbt
-config/iris.properties
-config/jei/ingredient-list-mod-sort-order.ini
-config/jei/recipe-category-sort-order.ini
-config/jei/world/server/ANTARCHY (antarchy_server_justjade_cc)/bookmarks.json
-config/jei/world/server/ANTARCHY (antarchy_server_justjade_cc)/lookupHistory.json
-config/litematica.json
-config/litematica/litematica_antarchy.server.justjade.cc.json
-config/litematica/litematica_antarchy.server.justjade.cc_dim_minecraft_overworld.json
-config/litematica/litematica_antarchy.server.justjade.cc_dim_minecraft_the_nether.json
-config/litematica/litematica_PANG - R92.json
-config/litematica/litematica_PANG - R92_dim_minecraft_overworld.json
-config/malilib.json
-config/modernfix-mixins.properties
-config/ponder-client.toml
-config/sizeable_foliage.properties
-config/sound_physics_remastered/sound_rates.properties
-config/structurize-client.toml
-mods/forgematicapatch-1.0.0.jar
-schematics/Aircraft Carrier.litematic
-mods/forgematica-0.4.2+mc1.21.1.jar
-config/apotheosis/enchantments.cfg
-config/cucumber-tags.json
-config/ftbchunks-client.snbt
-config/iris.properties
-config/jei/ingredient-list-mod-sort-order.ini
-config/jei/recipe-category-sort-order.ini
-config/jei/world/server/ANTARCHY (antarchy_server_justjade_cc)/bookmarks.json
-config/jei/world/server/ANTARCHY (antarchy_server_justjade_cc)/lookupHistory.json
-config/modernfix-mixins.properties
-config/sizeable_foliage.properties
-config/sound_physics_remastered/sound_rates.properties
-config/structurize-client.toml
-config/structurize-client.toml
-config/sound_physics_remastered/sound_rates.properties
-config/sizeable_foliage.properties
-config/modernfix-mixins.properties
-config/jei/world/server/ANTARCHY (antarchy_server_justjade_cc)/lookupHistory.json
-config/jei/world/server/ANTARCHY (antarchy_server_justjade_cc)/bookmarks.json
-config/jei/recipe-category-sort-order.ini
-config/jei/ingredient-list-mod-sort-order.ini
-config/iris.properties
-config/ftbchunks-client.snbt
-config/cucumber-tags.json
-config/apotheosis/enchantments.cfg
-/config
-/config
