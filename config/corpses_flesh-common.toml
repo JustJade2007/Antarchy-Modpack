@@ -1,6 +1,0 @@
-#should corpse drop flesh and bones when harvested by player
-corpse_drop = true
-#the possibility of a corpse drop its owner's head after destroyed
-# Default: 1.0
-# Range: 0.0 ~ 1.0
-player_head_drop_chance = 1.0
