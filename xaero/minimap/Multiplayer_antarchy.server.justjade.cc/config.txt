@@ -1,0 +1,20 @@
+//waypoints config options
+usingMultiworldDetection:false
+ignoreServerLevelId:false
+teleportationEnabled:true
+usingDefaultTeleportCommand:true
+sortType:NONE
+sortReversed:false
+
+//other config options
+ignoreHeightmaps:false
+
+//dimension types (DO NOT EDIT)
+dimensionType:minecraft$overworld:minecraft$overworld
+//third-party waypoints
+third-party-waypoint:dim%0:waystones:waystone:403dca70-c826-4668-bb85-9c0e4d284e1f::false::::;
+third-party-waypoint:dim%0:waystones:waystone:2860a196-5ff6-4d7d-81a1-af60691242bb::false::::;
+third-party-waypoint:dim%0:waystones:waystone:54011d84-c63e-4445-a8ba-94ee1404a79a::false::::;
+third-party-waypoint:dim%0:waystones:waystone:c6a21ad0-da8a-431e-89fb-4140fa2ec563::false::::;
+third-party-waypoint:dim%0:waystones:waystone:b333798d-32e8-4376-97de-b62ed0a94def::false::::;
+third-party-waypoint:dim%0:waystones:waystone:6b701828-7b7f-42bd-a814-1c91b8c0e24e::false::::;

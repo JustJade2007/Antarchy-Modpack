@@ -11,3 +11,10 @@ servers.dat_old
 servers.essential.dat
 usercache.json
 usernamecache.json
+/automodpack/modpacks
+/automodpack/.private
+automodpack/automodpack-client-metadata.json
+automodpack/automodpack-server.json
+/config
+/downloads
+/logs
