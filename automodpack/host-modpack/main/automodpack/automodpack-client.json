@@ -1,0 +1,17 @@
+{
+  "DO_NOT_CHANGE_IT": 2,
+  "selectedModpack": "Antarchy",
+  "installedModpacks": {
+    "Antarchy": {
+      "hostAddress": "antarchy.server.justjade.cc:26235",
+      "serverAddress": "antarchy.server.justjade.cc:25565",
+      "requiresMagic": true
+    }
+  },
+  "updateSelectedModpackOnLaunch": true,
+  "selfUpdater": true,
+  "syncAutoModpackVersion": true,
+  "syncLoaderVersion": true,
+  "playMusic": true,
+  "allowRemoteNonModpackDeletions": true
+}
