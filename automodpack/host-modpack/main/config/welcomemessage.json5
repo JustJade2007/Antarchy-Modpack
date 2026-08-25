@@ -1,0 +1,13 @@
+{
+    "onlyRunOnDedicatedServers": true,
+    "sendEmptyLineBeforeFirstMessage": true,
+    "messageOneText": "Welcome to Antarchy! Click here to visit our website.",
+    "messageOneColourIndex": 12,
+    "messageOneOptionalURL": "https://justjade.cc/antarchy",
+    "messageTwoText": "Join our official Discord community!",
+    "messageTwoColourIndex": 4,
+    "messageTwoOptionalURL": "https://discord.gg/Q4KkA7yRHn",
+    "messageThreeText": "View the Antarchy Modpack on GitHub!",
+    "messageThreeColourIndex": 0,
+    "messageThreeOptionalURL": "https://github.com/JustJade2007/Antarchy-Modpack"
+}

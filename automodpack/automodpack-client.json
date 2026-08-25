@@ -1,0 +1,11 @@
+{
+  "DO_NOT_CHANGE_IT": 2,
+  "selectedModpack": "",
+  "installedModpacks": {},
+  "updateSelectedModpackOnLaunch": true,
+  "selfUpdater": false,
+  "syncAutoModpackVersion": true,
+  "syncLoaderVersion": true,
+  "playMusic": true,
+  "allowRemoteNonModpackDeletions": true
+}
