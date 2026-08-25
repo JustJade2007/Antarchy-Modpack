@@ -18,3 +18,16 @@ automodpack/automodpack-server.json
 /config
 /downloads
 /logs
+/colonyweb
+/auto_restart
+/.cache
+archive-2026-08-14T111138Z.tar.gz
+automodpack/host-modpack/main/mods/watermedia_binaries-3.0.0.6.jar
+/crash-reports
+/.local
+/libraries
+/mimicked
+mods/twitchannouncer-1.0.0.jar
+mods/client_audit-1.jar
+/world
+/modtools
