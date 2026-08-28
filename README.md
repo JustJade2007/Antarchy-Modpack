@@ -51,4 +51,6 @@ Community & Resources
 
 [Rules](https://justjade.cc/antarchy#rules-section)
 
+[Modrinth](https://modrinth.com/server/jades-antarchy)
+
 [Source and Issues](https://github.com/JustJade2007/Antarchy-Modpack)
