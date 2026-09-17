@@ -6,7 +6,9 @@
   "syncedFiles": [
     "!/kubejs/server_scripts/**",
     "/mods/*.jar",
+    "!/mods/mktessentials-1.0.0.jar",
     "/kubejs/**",
+    "!/mods/placeholder_api-2.4.2+1.21.1-neoforge.jar",
     "!/mods/voicechat-discord-neoforge-3.2.0-fixed.jar",
     "/emotes/*"
   ],
@@ -33,7 +35,6 @@
     "/resourcepacks/**",
     "/command_history.txt",
     "/.mixin.out/**",
-    "/mods/**",
     "/XaeroWaypoints_BACKUP*/**",
     "/essential/**",
     "/mimicked/**"
@@ -41,8 +42,8 @@
   "forceCopyFilesToStandardLocation": [],
   "nonModpackFilesToDelete": {},
   "autoExcludeServerSideMods": true,
-  "autoExcludeUnnecessaryFiles": true,
-  "requireAutoModpackOnClient": true,
+  "autoExcludeUnnecessaryFiles": false,
+  "requireAutoModpackOnClient": false,
   "nagUnModdedClients": true,
   "nagMessage": "Now with auto update!",
   "nagClickableMessage": "Modpack Website!",
