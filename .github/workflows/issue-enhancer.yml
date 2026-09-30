@@ -88,4 +88,3 @@ jobs:
           project-status-field: 'Status'
           # Initial status for newly assigned issues (default: 'Backlog')
           project-initial-status: 'Backlog'
-
